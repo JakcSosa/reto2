@@ -353,3 +353,76 @@ h1.contenido_1{
     max-width: 1200px;
     padding: 80px 0;
 }
+
+.wrapper {
+    background: #fff;
+    margin: 0 0 2em 0;
+    padding: 6em 0 6em 0;
+}
+
+.wrapper.style2 {
+        padding-top: 0;
+}
+
+.button {
+        display: inline-block;
+        border-radius: 100%;
+        width: 4.5em;
+        height: 4.5em;
+        line-height: 4.5em;
+        text-align: center;
+        font-size: 1.25em;
+        padding: 0;
+}
+
+#main {
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+#main section:first-of-type {
+    padding-top: 2em;
+}
+
+
+.titleg{
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.image.fit {
+    display: block;
+    width: 100%;
+}
+
+.image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 4em 0;
+}
+
+.image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+    .image.centered img {
+        margin: 0 auto;
+        width: auto;
+    }
